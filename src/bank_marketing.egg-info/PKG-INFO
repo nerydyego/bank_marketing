@@ -1,0 +1,38 @@
+Metadata-Version: 2.4
+Name: bank-marketing
+Version: 0.1.0
+Summary: Projeto de aprendizado supervisionado utilizando o Bank Marketing Dataset.
+Author-email: Dyego Nery <dyego-nery@gmail.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Provides-Extra: notebook
+Requires-Dist: jupyterlab; extra == "notebook"
+Requires-Dist: ipykernel; extra == "notebook"
+
+# Projeto de Machine Learning - Bank Marketing
+
+## Problema
+
+Desenvolver um modelo de Machine Learning capaz de prever se um
+cliente de uma instituição bancária irá contratar um depósito a prazo
+a partir de suas características e informações disponíveis antes da
+decisão.
+
+## Tipo de problema
+
+- Aprendizado: Supervisionado
+- Tarefa: Classificação
+- Tipo: Classificação binária
+- Variável alvo: `y`
+- Classes: `yes` e `no`
+
+## Objetivo
+
+Construir, avaliar e comparar diferentes algoritmos de classificação
+para identificar clientes com maior probabilidade de contratar um
+depósito a prazo.
